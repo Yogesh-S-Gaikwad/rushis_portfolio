@@ -1,0 +1,428 @@
+body{
+    background: #000;
+    font-family:'Poppins';
+}
+p{
+  color: white;
+}
+.navbar{
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .profile{
+    height: 48px;
+    width: 51px;
+    background:white;
+    border-radius: 50%;
+    border-color:transparent ;
+    margin-left: 119px;
+   }
+   .name{
+    font-family:'Poppins';
+    font-size:medium;
+    color: white;
+    margin: 0;
+    display:inline;
+    margin-right: auto;
+    margin-left: 24px;
+   }
+    .nav-list{
+    display: flex;
+    margin-bottom: 0%;
+    margin-right: 119px;
+   }
+    .nav-list li{
+    display: inline;
+  }
+    .nav-list a{
+    font-family:'Poppins';
+    text-decoration: none;
+    color: white;
+  }
+  .nav-item{
+    padding: 8px 24px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid transparent;
+  }
+  .nav-item:hover {
+    border: 2px solid #10fe85;
+  }
+  .nav-item:active {
+    border: 2px solid #10fe85;
+  }
+  .hi-icon{
+    width: auto;
+    height: auto;
+  }
+.container3{
+  position: relative;
+  height: 805px;
+  border-bottom: 2px solid rgb(245, 222, 179,0.1);
+}
+.bg-circle{
+  height:400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: #10fe85;
+  -webkit-filter: blur(100px);
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+}
+.img-profile{
+  margin-top: 147px;
+  width: 496px;
+  height: 658px;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+}
+.text{
+  position: absolute;
+  margin-top: 120px;
+  margin-bottom: 0px;
+  margin-left: 107px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.text1{
+  margin-bottom: 0;
+}
+.text2{
+  color: #10fe85;
+  margin-bottom: 0;
+}
+.downloadCv{
+  position: absolute;
+  background: #10fe85;
+  margin-top: 400px;
+  margin-left: 114px;
+  padding: 15px 20px;
+  font-size: 24px;
+  font-weight: 600;
+  border: transparent;
+  border-radius: 10px;
+}
+.socialMedia{
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 118px;
+  width: 252px;
+  height: 75px;
+}
+
+.followMe{
+  color: #10fe85;
+  margin: 0;
+}
+.line{
+  margin-bottom: 10px;
+  border: 1px solid white;
+}
+.mainicon{
+  width: 252px;
+  display: flex;
+  position: relative;
+}
+.iconbg{
+  width: 252px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.icons{
+  width: 252px;
+  color: white;
+  font-size: 32px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 5;
+  margin-left: 2px;
+
+}
+/* .icon{
+  margin: 0%;
+  color: white;
+} */
+.iconbg1{
+  height:32px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #10fe85;
+  -webkit-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+}
+.aboutMe{
+  position: relative;
+}
+.skills{
+  position: absolute;
+  top: 245px;
+  height: 320px;
+  width: 390px;
+}
+.line1{
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: white;  
+}
+.green1{
+  position: absolute;
+  /* border: 3px solid #10fe85; */
+  width: 100%;
+  border-radius: 10px;
+  bottom: 5px;
+  height: 6px;
+  background-color: white;
+  overflow: hidden;
+}
+.green1::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #10fe85;
+  /* animation: fillAnimation 3s linear forwards; */
+}
+.gcircle1.animate {
+  animation: moveLeftToRight 3s linear forwards;
+}
+
+.green1.animate::before {
+  animation: fillAnimation 3s linear forwards;
+}
+
+@keyframes fillAnimation {
+  100% {
+      width: 95%; /* Fill the div completely */
+  }
+}
+
+.gcircle1{
+  width: 30px;
+  height: 30px;
+  background: #10fe85;
+  border-radius: 50%;
+  -webkit-filter: blur(1px);
+  position: absolute;
+  top: 28px;
+  left: 90%;
+  /* animation: moveLeftToRight 3s linear forwards; */
+}
+@keyframes moveLeftToRight {
+  0% {
+      left: 0; /* Starting position */
+  }
+  100% {
+      left: calc(100%-5%); /* Ending position */
+  }
+}
+.percentage1{
+  position: absolute;
+  top: 0px;
+  left: 90%;
+}
+.skill1{
+  position: relative; 
+  width: 100%;
+  height: 50px;
+}
+.green3{
+  position: absolute;
+  /* border: 3px solid #10fe85; */
+  width: 100%;
+  border-radius: 10px;
+  bottom: 5px;
+  height: 6px;
+  background-color: white;
+  overflow: hidden;
+}
+.green3::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #10fe85;
+  animation: fillAnimation2 3s linear forwards;
+}
+@keyframes fillAnimation2 {
+  100% {
+      width: 90%; /* Fill the div completely */
+  }
+}
+
+.gcircle3{
+  width: 30px;
+  height: 30px;
+  background: #10fe85;
+  border-radius: 50%;
+  -webkit-filter: blur(1px);
+  position: absolute;
+  top: 28px;
+  left: 85%;
+  animation: moveLeftToRight 3s linear forwards;
+}
+
+.green4{
+  position: absolute;
+  /* border: 3px solid #10fe85; */
+  width: 100%;
+  border-radius: 10px;
+  bottom: 5px;
+  height: 6px;
+  background-color: white;
+  overflow: hidden;
+}
+.green4::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #10fe85;
+  animation: fillAnimation3 3s linear forwards;
+}
+@keyframes fillAnimation3 {
+  100% {
+      width: 80%; /* Fill the div completely */
+  }
+}
+
+
+
+.gcircle4{
+  width: 30px;
+  height: 30px;
+  background: #10fe85;
+  border-radius: 50%;
+  -webkit-filter: blur(1px);
+  position: absolute;
+  top: 28px;
+  left: 80%;
+  animation: moveLeftToRight 3s linear forwards;
+}
+.aboutMe{
+  height: 805px;
+}
+.aboutmediv{
+  position: absolute;
+  top: 180px;
+  right: 0px;
+  width: 718px;
+  height: 315px;
+}
+.titleAboutMe{
+  font-size: 128px;
+  color: #10fe85;
+}
+.Experience{
+  margin: 0;
+  font-size: 95px;
+  font-weight: 600;
+}
+.Experience1{
+  font-size: 16px;
+}
+.hr2{
+  width: auto;
+  border: 1px solid white;
+  margin-bottom: 10px;
+  opacity: 0.3;
+}
+.mySerTitle{
+  display: flex;
+  justify-content: center;
+}
+.box{
+  position: relative;
+  padding: 43px 88px;
+  background: #202020;
+  border-radius: 10px;
+  width: 577px;
+  height: 577px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.boxTitle{
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+}
+.boxText{
+  text-align: justify;
+  font-size: 20 px;
+}
+.servicesDiv{
+  display: flex;
+  justify-content: space-around;
+}
+.viewProject{
+  width: 577px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: #474747;
+  border-radius:0px 0px 10px 10px;
+}
+.vpText{
+  font-size: 24px;
+  font-weight: 600;
+  color: #10fe85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.greenText{
+  color: #10fe85;
+  display: inline;
+}
+.futter{
+  height: 500px;
+  background-image:url(images/dots.png);
+  background-size: cover;
+  
+}
+.futter2{
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.contactIcon{
+  height: 20px;
+  width: 20px;
+  color: white;
+  display: inline;
+  margin: 0px 15px;
+}
+.mainicon2{
+  display: flex;
+  position: relative;
+  justify-content: end;
+  align-items: end;
+  margin-bottom: 1rem;
+}
+.nav2{
+  display: flex;
+  
+  justify-content: center;
+}
+.contact{
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+ 
+   
